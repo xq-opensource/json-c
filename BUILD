@@ -4,7 +4,7 @@ cc_library(
   extra_cppflags = [
     '-Wno-error=implicit-function-declaration',
   ],
-  export_incs = './include',
+  export_incs = '.',
   srcs = [
     'arraylist.c',
     'debug.c',
